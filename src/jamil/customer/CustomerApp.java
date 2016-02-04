@@ -21,19 +21,21 @@ public class CustomerApp {
 
             if (n == null)
             {
+                System.out.println();
                 System.out.println("There is no customer number "+ id
                         + " in our records.");
+                System.out.println();
             }
 
             else {
                 System.out.println();
                 System.out.println(n.getNameAndAddress());
+                System.out.println();
             }
 
             System.out.println("Display another customer (y/n):");
             display = scanner.next();
             display = display.trim();
-            System.out.println(display);
         }
 
     }
